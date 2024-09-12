@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ShoppingList from "./Exo1";
 
 interface Todo {
   id: number;
@@ -94,6 +95,7 @@ const App = () => {
           </li>
         ))}
       </ul>
+      <ShoppingList />
     </div>
   );
 };
